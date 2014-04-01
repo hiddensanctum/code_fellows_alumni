@@ -2,9 +2,9 @@
 
 FactoryGirl.define do
   factory :post do
-    image "MyString"
-    title "MyString"
-    body "MyString"
-    tag "MyString"
+    image "fake.jpg"
+    title "Hello, this is a post"
+    body "Lorem ipsum is not good enough for this post."
+    tag "fail, win"
   end
 end
